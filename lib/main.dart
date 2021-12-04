@@ -18,16 +18,17 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
         scaffoldBackgroundColor: Colors.blue.shade50,
-        textTheme: const TextTheme(
-            headline1: TextStyle(
+        textTheme: TextTheme(
+            headline1: const TextStyle(
                 fontSize: 172.0,
                 fontWeight: FontWeight.w300,
                 color: Colors.blue),
-            headline6: TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
+            headline6:
+                const TextStyle(fontSize: 36.0, fontStyle: FontStyle.italic),
             bodyText2: TextStyle(
                 fontSize: 172.0,
                 fontWeight: FontWeight.w300,
-                color: Colors.blue,
+                color: Colors.blue.shade200,
                 fontFamily: 'Hind')),
       ),
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
